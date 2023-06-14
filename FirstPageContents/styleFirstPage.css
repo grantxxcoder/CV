@@ -1,13 +1,16 @@
 :root{
    --defaultFontFamily : 'Times New Roman', Times, serif ;
    --defaultFontSize: 25px;
+   --defaultFontHeadingSize: 30px;
    --defaultButtonWidth: 250px;
    --defaultButtonHeight: 80px;
    --defaultBackgroundColor: black;
+   --defaultFontColor: white;
+   --imageFilePathName: "resources/images/";
 }
 
 .hover-button {
-    color: white;
+    color: var(--defaultFontColor);
     background-color: black;
     border-color: white;
     font-family:var(--defaultFontFamily);
@@ -40,4 +43,19 @@
 
 .background-body-front {
     background-color: var(--defaultBackgroundColor);
+    overflow: hidden;
 }
+
+.fade-in-text-heading {
+    font-size: var(--defaultFontHeadingSize);
+    font-family: var(--defaultFontFamily);
+    color: var(--defaultFontColor);
+    animation:  fadeIn 5s;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+ 
