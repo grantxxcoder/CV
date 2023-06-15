@@ -21,7 +21,7 @@
     width:var(--defaultButtonWidth);
     height: var(--defaultButtonHeight);
     left: 42%;
-    top:80%;
+    top:85%;
     position:absolute;
 }
 
@@ -37,7 +37,7 @@
     width:var(--defaultButtonWidth);
     height: var(--defaultButtonHeight);
     left:42%;
-    top:80%;
+    top:85%;
     position:absolute;
 }
 
@@ -59,3 +59,32 @@
     100% { opacity: 1; }
   }
  
+  .img-headshot{
+    height:650px;
+    width: 500px;
+    background-image: url(/resources/images/head_shot_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    border: 2px solid white;
+    animation:  fadeIn 5s;
+  }
+
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 300px); /* Adjust the value based on the width of your image */
+    transform: translateY(-50%);
+    text-align: left;
+  }
+
+  .text-container p {
+    color: white;
+    font-family: var(--defaultFontFamily);
+    font-size: var(--defaultFontSize);
+    font-style: italic;
+    animation: fadeIn 5s;
+  }
