@@ -1,0 +1,31 @@
+:root{
+   --defaultFontFamily : 'Times New Roman', Times, serif ;
+   --defaultFontSize: 25px;
+   --defaultFontHeadingSize: 30px;
+   --defaultButtonWidth: 250px;
+   --defaultButtonHeight: 80px;
+   --defaultBackgroundColor: black;
+   --defaultFontColor: white;
+   --imageFilePathName: "resources/images/";
+}
+
+.background-body-second {
+    background-color: var(--defaultBackgroundColor);
+  }
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 1;
+    margin-right: 10px; /* Adjust the margin as desired */
+    background-color: lightgray; /* Adjust the background color as desired */
+    padding: 10px;
+    height: 600px;
+}
+
+.column:last-child {
+    margin-right: 0;
+  }
+

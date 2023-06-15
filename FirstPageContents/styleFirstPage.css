@@ -39,6 +39,7 @@
     left:42%;
     top:85%;
     position:absolute;
+    
 }
 
 .background-body-front {
@@ -73,7 +74,7 @@
     animation:  fadeIn 5s;
   }
 
-  .text-container {
+  .text-container-right {
     position: absolute;
     top: 50%;
     left: calc(50% + 300px); /* Adjust the value based on the width of your image */
@@ -81,7 +82,23 @@
     text-align: left;
   }
 
-  .text-container p {
+  .text-container-left {
+    position: absolute;
+    top: 50%;
+    right: calc(50% + 300px); /* Adjust the value based on the width of your image */
+    transform: translateY(-50%);
+    text-align: right;
+  }
+
+  .text-container-right p {
+    color: white;
+    font-family: var(--defaultFontFamily);
+    font-size: var(--defaultFontSize);
+    font-style: italic;
+    animation: fadeIn 5s;
+  }
+
+  .text-container-left p {
     color: white;
     font-family: var(--defaultFontFamily);
     font-size: var(--defaultFontSize);
