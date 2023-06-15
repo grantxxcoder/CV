@@ -1,31 +1,102 @@
-:root{
-   --defaultFontFamily : 'Times New Roman', Times, serif ;
-   --defaultFontSize: 25px;
-   --defaultFontHeadingSize: 30px;
-   --defaultButtonWidth: 250px;
-   --defaultButtonHeight: 80px;
-   --defaultBackgroundColor: black;
-   --defaultFontColor: white;
-   --imageFilePathName: "resources/images/";
+:root {
+  --defaultFontFamily: 'Times New Roman', Times, serif;
+  --defaultFontSize: 25px;
+  --defaultFontHeadingSize: 30px;
+  --defaultButtonWidth: 250px;
+  --defaultButtonHeight: 80px;
+  --defaultBackgroundColor: black;
+  --defaultFontColor: white;
+  --imageFilePathName: "resources/images/";
 }
 
 .background-body-second {
-    background-color: var(--defaultBackgroundColor);
-  }
-
-.row{
-    display: flex;
+  background-color: var(--defaultBackgroundColor);
 }
 
-.column{
-    flex: 1;
-    margin-right: 10px; /* Adjust the margin as desired */
-    background-color: lightgray; /* Adjust the background color as desired */
-    padding: 10px;
-    height: 600px;
+.fade-in-text-heading {
+  font-size: var(--defaultFontHeadingSize);
+  font-family: var(--defaultFontFamily);
+  color: var(--defaultFontColor);
+  animation: fadeIn 5s;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  padding: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 12px;
+  border: 2px solid white;
+  height: 600px;
+  background-size: cover;
 }
 
 .column:last-child {
-    margin-right: 0;
-  }
+  margin-right: 0;
+}
 
+.container-main {
+  width: 400px;
+  text-align: center;
+  font-size: var(--defaultFontSize);
+  font-family: var(--defaultFontFamily);
+  color: var(--defaultFontColor);
+  background-color: black;
+  margin-top: 100%;
+  background-size: cover;
+  transition-duration: 0.4s;
+}
+
+.academic-column {
+  background-image: url(/resources/images/academic_2_gray.JPG);
+  transition-duration: 0.4s;
+}
+
+.academic-column:hover .container-main{
+  background-color: white;
+  color: black;
+}
+
+.academic-column:hover{
+  background-image: url(/resources/images/academic_2.JPG);
+}
+
+.sport-column {
+  background-image: url(/resources/images/sport_4_gray.jpg);
+  transition-duration: 0.4s;
+}
+
+.sport-column:hover {
+  background-image: url(/resources/images/sport_4.jpg);
+}
+
+.sport-column:hover .container-main{
+  background-color: white;
+  color: black;
+}
+.other-column {
+  background-image: url(/resources/images/other_1_gray.jpg);
+  transition-duration: 0.4s;
+}
+.other-column:hover{
+  background-image: url(/resources/images/other_1.jpg);
+}
+
+.other-column:hover .container-main{
+  background-color: white;
+  color: black;
+}
