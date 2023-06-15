@@ -100,3 +100,36 @@
   background-color: white;
   color: black;
 }
+
+.back-button{
+  color: var(--defaultFontColor);
+  background-color: black;
+  border-color: white;
+  font-family:var(--defaultFontFamily);
+  font-size: var(--defaultFontSize);
+  text-align: center;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  width:var(--defaultButtonWidth/2);
+  height: var(--defaultButtonHeight/2);
+  left: 2%;
+  top:2%;
+  position:absolute;
+}
+
+.back-button:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+  font-family:var(--defaultFontFamily);
+  font-size: var(--defaultFontSize);
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  width:var(--defaultButtonWidth/2);
+  height: var(--defaultButtonHeight/2);
+  left:2%;
+  top:2%;
+  position:absolute;
+  
+}
