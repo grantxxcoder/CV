@@ -1,7 +1,7 @@
 :root {
   --defaultFontFamily: 'Times New Roman', Times, serif;
-  --defaultFontSize: 25px;
-  --defaultFontHeadingSize: 30px;
+  --defaultFontSize: 28px;
+  --defaultFontHeadingSize: 32px;
   --defaultButtonWidth: 250px;
   --defaultButtonHeight: 80px;
   --defaultBackgroundColor: black;
@@ -11,6 +11,7 @@
 
 .background-body-second {
   background-color: var(--defaultBackgroundColor);
+  overflow: hidden;
 }
 
 .fade-in-text-heading {
@@ -56,9 +57,10 @@
   font-family: var(--defaultFontFamily);
   color: var(--defaultFontColor);
   background-color: black;
-  margin-top: 100%;
+  margin-top: 142%;
   background-size: cover;
   transition-duration: 0.4s;
+  border-radius: 12px;
 }
 
 .academic-column {
