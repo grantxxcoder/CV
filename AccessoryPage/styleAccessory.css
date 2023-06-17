@@ -24,6 +24,12 @@
     color: var(--defaultFontColor);
     text-align: center;
 }
+.side-heaing{
+  font-size: var(--defaultFontHeadingSize);
+  font-family: var(--defaultFontFamily);
+  color: var(--defaultFontColor);
+  text-align: left;
+}
 .heading-fade-in {
     animation: fadeIn 5s;
   }
@@ -84,6 +90,12 @@
     border-radius: 12px;
   }
 
+  .image-large{
+    width:auto;
+    height: 600px;
+    border-radius: 12px;
+  }
+
   .back-button{
     color: var(--defaultFontColor);
     background-color: black;
@@ -115,4 +127,20 @@
     top:2%;
     position:absolute;
     
+  }
+
+  .description{
+    max-height: 300px;
+    max-width: 500px;
+    background-color:rgba(0, 0, 0, 0.329);
+  }
+
+  .description p{
+    margin-top: auto;
+    font-size: var(--defaultFontSize);
+    font-family: var(--defaultFontFamily);
+    color: var(--defaultFontColor);
+    text-align: left;
+    word-wrap: break-word;
+    margin: 5px;
   }
