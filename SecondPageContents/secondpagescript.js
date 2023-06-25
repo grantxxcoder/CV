@@ -6,7 +6,7 @@ const sportColumn = document.querySelector(".sport-column");
 
 // Add event listener to the back button
 openButton.addEventListener("click", function() {
-  window.location.href = "../FirstPageContents/frontPage.html";
+  window.location.href = "../index.html";
 });
 
 // Assign URL to academic column
