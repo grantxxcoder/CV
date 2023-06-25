@@ -64,7 +64,7 @@
 }
 
 .academic-column {
-  background-image: url(/resources/images/academic_2_gray.JPG);
+  background-image: url(academic_2_gray.JPG);
   transition-duration: 0.4s;
 }
 
@@ -74,16 +74,16 @@
 }
 
 .academic-column:hover{
-  background-image: url(/resources/images/academic_2.JPG);
+  background-image: url(academic_2.JPG);
 }
 
 .sport-column {
-  background-image: url(/resources/images/sport_4_gray.jpg);
+  background-image: url(sport_4_gray.jpg);
   transition-duration: 0.4s;
 }
 
 .sport-column:hover {
-  background-image: url(/resources/images/sport_4.jpg);
+  background-image: url(sport_4.jpg);
 }
 
 .sport-column:hover .container-main{
@@ -91,11 +91,11 @@
   color: black;
 }
 .other-column {
-  background-image: url(/resources/images/other_1_gray.jpg);
+  background-image: url(other_1_gray.jpg);
   transition-duration: 0.4s;
 }
 .other-column:hover{
-  background-image: url(/resources/images/other_1.jpg);
+  background-image: url(other_1.jpg);
 }
 
 .other-column:hover .container-main{
