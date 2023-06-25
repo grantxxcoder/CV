@@ -63,7 +63,7 @@
   .img-headshot{
     height:650px;
     width: 500px;
-    background-image: url(/resources/images/head_shot_2.jpg);
+    background-image: url(resources/images/head_shot_2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
