@@ -1,5 +1,5 @@
 const openButton = document.getElementById("openButton");
 
 openButton.addEventListener("click", function() {
-  window.location.href = "/SecondPageContents/secondPage.html";
+  window.location.href = "secondPage.html";
 });

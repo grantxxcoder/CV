@@ -6,20 +6,20 @@ const sportColumn = document.querySelector(".sport-column");
 
 // Add event listener to the back button
 openButton.addEventListener("click", function() {
-  window.location.href = "../index.html";
+  window.location.href = "index.html";
 });
 
 // Assign URL to academic column
 academicColumn.addEventListener("click", function() {
-  window.location.href = "../AccessoryPage/academic.html";
+  window.location.href = "academic.html";
 });
 
 // Assign URL to other column
 otherColumn.addEventListener("click", function() {
-  window.location.href = "../AccessoryPage/other.html";
+  window.location.href = "other.html";
 });
 
 // Assign URL to sport column
 sportColumn.addEventListener("click", function() {
-  window.location.href = "../AccessoryPage/sport.html";
+  window.location.href = "sport.html";
 });
